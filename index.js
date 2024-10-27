@@ -4,7 +4,7 @@ const app = express();
 
 const port = process.env.PORT || 3002;
 
-app.get('/', (req, res) => {
+app.get('/home', (req, res) => {
     res.send("App is runing!");
 })
 
