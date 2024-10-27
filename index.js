@@ -6,6 +6,6 @@ app.get('/', (req, res) => {
     res.send("App is runing!");
 })
 
-app.listen(3004, () => {
-    console.log("app is runing at " + 3004);
+app.listen(3000, () => {
+    console.log("app is runing at " + 3000);
 })
